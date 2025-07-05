@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "listings.apps.ListingsConfig",  # Ensure this app is included
+    "listings",  # Ensure this app is included
     "corsheaders",  # using CORS headers
     "rest_framework",  # using Django REST Framework
     "drf_yasg",  # for API documentation
